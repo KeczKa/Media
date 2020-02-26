@@ -5,7 +5,7 @@ public class Altalanos {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);	
 		System.out.println("Ad meg a tantárgyat:");
-		String t = sc.nextString();
+		String t = sc.next();
 		System.out.println("Add meg a jegyek szamat:");
 		int i = sc.nextInt();
 		System.out.println("Add meg a jegyek erteket, az utolso a felevi dolgozat.");
